@@ -6,5 +6,4 @@ Google Colab notebooks for learning LangGraph.
 
 Choose **Runtime → Run all** to install LangGraph and verify the imports. This first step needs no API keys or GPU. The installation cell downloads LangGraph and its dependencies into the Colab runtime. Run it again in each fresh runtime.
 
-The notebook currently covers setup only; we will build the graph next.
-Agent examples
+After setup, the notebook builds a StateGraph with two nodes: add 2, then multiply by 3. It explains shared state, nodes, edges, compilation, and execution, and shows each node's update. Starting with 4 produces 18. No API calls are used.
